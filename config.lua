@@ -1,5 +1,5 @@
 Config                  = {}
-Config.DynamicWeather   = true -- Set this to false if you don't want the weather to change automatically every 10 minutes.
+Config.DynamicWeather   = true -- Set this to false if you don't want the weather to change automatically every 55 minutes.
 
 -- On server start
 Config.StartWeather     = 'EXTRASUNNY' -- Default weather                       default: 'EXTRASUNNY'
@@ -8,7 +8,7 @@ Config.TimeOffset       = 0 -- Time offset                                      
 Config.FreezeTime       = false -- freeze time                                  default: false
 Config.Blackout         = false -- Set blackout                                 default: false
 Config.BlackoutVehicle  = false -- Set blackout affects vehicles                default: false
-Config.NewWeatherTimer  = 10 -- Time (in minutes) between each weather change   default: 10
+Config.NewWeatherTimer  = 55 -- Time (in minutes) between each weather change   default: 10
 Config.Disabled         = false -- Set weather disabled                         default: false
 
 Config.Locale           = 'en' -- Languages : en, fr, pt, tr, pt_br
